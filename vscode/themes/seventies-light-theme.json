@@ -1,0 +1,38 @@
+{
+  "name": "GroovyCode Sunrise",
+  "type": "light",
+  "colors": {
+    "editor.background": "#FFF5E6",
+    "editor.foreground": "#2D2320",
+    "editor.lineHighlightBackground": "#FFE8CC",
+    "sideBar.background": "#FFE8CC",
+    "activityBar.background": "#FFD58E",
+    "titleBar.activeBackground": "#FFD58E"
+  },
+  "tokenColors": [
+    {
+      "name": "Keywords and Control",
+      "scope": ["keyword", "storage", "control"],
+      "settings": {
+        "foreground": "#f26e00",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#ff6e6e",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "Functions and Methods",
+      "scope": ["entity.name.function", "meta.method"],
+      "settings": {
+        "foreground": "#c847bd",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

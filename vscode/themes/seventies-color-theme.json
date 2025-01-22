@@ -2,23 +2,23 @@
   "name": "GroovyCode",
   "type": "dark",
   "colors": {
-    "editor.background": "#2A2424",
-    "editor.foreground": "#FFE6C9",
-    "editor.lineHighlightBackground": "#332D2D",
-    "editor.selectionBackground": "#7A8B4C40",
+    "editor.background": "#2D2320",
+    "editor.foreground": "#ffd58e",
+    "editor.lineHighlightBackground": "#352A26",
+    "editor.selectionBackground": "#52b3b650",
     "editorCursor.foreground": "#D35D2B",
 
-    "activityBar.background": "#3A3434",
+    "activityBar.background": "#2D2320",
     "activityBar.foreground": "#F5E6C9",
     "activityBarBadge.background": "#D35D2B",
 
-    "sideBar.background": "#332D2D",
+    "sideBar.background": "#352A26",
     "sideBar.foreground": "#F5E6C9",
 
     "statusBar.background": "#D35D2B",
     "statusBar.foreground": "#F5E6C9",
 
-    "titleBar.activeBackground": "#3A3434",
+    "titleBar.activeBackground": "#2D2320",
     "titleBar.activeForeground": "#F5E6C9"
   },
   "tokenColors": [
@@ -26,7 +26,7 @@
       "name": "Keywords and Control",
       "scope": ["keyword", "storage", "control"],
       "settings": {
-        "foreground": "#FFB448",
+        "foreground": "#ff9b5a",
         "fontStyle": "bold"
       }
     },
@@ -34,14 +34,14 @@
       "name": "Strings and Text",
       "scope": ["string", "markup.quote"],
       "settings": {
-        "foreground": "#96AB62"
+        "foreground": "#6fcb9f"
       }
     },
     {
       "name": "Functions and Methods",
       "scope": ["entity.name.function", "meta.method"],
       "settings": {
-        "foreground": "#B176A6",
+        "foreground": "#c847bd",
         "fontStyle": "bold"
       }
     },
@@ -49,14 +49,14 @@
       "name": "Variables",
       "scope": ["variable", "support.variable"],
       "settings": {
-        "foreground": "#FFCC53"
+        "foreground": "#ffd58e"
       }
     },
     {
       "name": "Constants",
       "scope": ["constant", "support.constant"],
       "settings": {
-        "foreground": "#B84A2C"
+        "foreground": "#52b3b6"
       }
     },
     {
@@ -69,10 +69,10 @@
     },
     {
       "name": "Comments",
-      "scope": ["comment"],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#7A8B4C90",
-        "fontStyle": "italic"
+        "foreground": "#ff6e6e",
+        "fontStyle": "italic bold"
       }
     }
   ]

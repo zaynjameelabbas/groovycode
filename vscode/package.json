@@ -11,9 +11,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "GroovyCodeB",
+        "label": "GroovyCode",
         "uiTheme": "vs-dark",
         "path": "./themes/seventies-color-theme.json"
+      },
+      {
+        "label": "GroovyCode Sunrise",
+        "uiTheme": "vs",
+        "path": "./themes/seventies-light-theme.json"
+      },
+      {
+        "label": "GroovyCode Sunset",
+        "uiTheme": "vs-dark",
+        "path": "./themes/seventies-dark-theme.json"
       }
     ]
   }
