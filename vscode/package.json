@@ -1,0 +1,20 @@
+{
+  "name": "groovycode",
+  "displayName": "GroovyCode Theme",
+  "description": "A radical 70s inspired color theme that makes your code pop",
+  "version": "0.0.1",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GroovyCodeB",
+        "uiTheme": "vs-dark",
+        "path": "./themes/seventies-color-theme.json"
+      }
+    ]
+  }
+}

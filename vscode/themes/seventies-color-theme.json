@@ -1,0 +1,79 @@
+{
+  "name": "GroovyCode",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#2A2424",
+    "editor.foreground": "#FFE6C9",
+    "editor.lineHighlightBackground": "#332D2D",
+    "editor.selectionBackground": "#7A8B4C40",
+    "editorCursor.foreground": "#D35D2B",
+
+    "activityBar.background": "#3A3434",
+    "activityBar.foreground": "#F5E6C9",
+    "activityBarBadge.background": "#D35D2B",
+
+    "sideBar.background": "#332D2D",
+    "sideBar.foreground": "#F5E6C9",
+
+    "statusBar.background": "#D35D2B",
+    "statusBar.foreground": "#F5E6C9",
+
+    "titleBar.activeBackground": "#3A3434",
+    "titleBar.activeForeground": "#F5E6C9"
+  },
+  "tokenColors": [
+    {
+      "name": "Keywords and Control",
+      "scope": ["keyword", "storage", "control"],
+      "settings": {
+        "foreground": "#FFB448",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Strings and Text",
+      "scope": ["string", "markup.quote"],
+      "settings": {
+        "foreground": "#96AB62"
+      }
+    },
+    {
+      "name": "Functions and Methods",
+      "scope": ["entity.name.function", "meta.method"],
+      "settings": {
+        "foreground": "#B176A6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "support.variable"],
+      "settings": {
+        "foreground": "#FFCC53"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": ["constant", "support.constant"],
+      "settings": {
+        "foreground": "#B84A2C"
+      }
+    },
+    {
+      "name": "Classes and Types",
+      "scope": ["entity.name.type", "support.class"],
+      "settings": {
+        "foreground": "#D35D2B",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#7A8B4C90",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}
